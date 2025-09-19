@@ -1,8 +1,27 @@
 TalentFLOW – A Mini Hiring Platform
 
+A Walkthrough Video Link of the project for easy understanding:
+https://drive.google.com/file/d/1OEsiiRJGJHspTNKkc-8yVXMtsZzxHTUV/view?usp=sharing
+
+
+
+
+Usage & Login Credentials
+Once the application is running, navigate to the login page. You can use the following mock credentials to access the dashboard:
+Email: abc@talentflow.com
+Password: password123
+
+
+
+
+
 TalentFLOW is a front-end React application designed as a mini hiring platform. It provides HR teams with a comprehensive interface to manage job postings, track candidates through the hiring pipeline, and build custom job-specific assessments.
 
 This project was built as a technical assignment to demonstrate core front-end development skills, including state management, API mocking, and building a responsive, feature-rich user interface.
+
+
+
+
 
 Features
 
@@ -24,12 +43,6 @@ Dynamic Assessments:
     Conditional logic to show or hide questions based on previous answers.
 
 
-Usage & Login Credentials
-
-Once the application is running, navigate to the login page. You can use the following mock credentials to access the dashboard:
-
-Email: abc@talentflow.com
-Password: password123
 
 
 
@@ -40,6 +53,10 @@ API Mocking: Mock Service Worker (MSW)
 Local Persistence:** Browser localStorage to simulate a database and persist state across sessions.
 Routing: React Router
 UI Components: Radix UI for accessible, unstyled primitives.
+
+
+
+
 
 Setup and Installation
 
@@ -64,6 +81,9 @@ To run this project locally, follow these steps:
     The application will be available at http://localhost:3001.
 
 
+
+
+
 Architecture
 
 The application is structured as a modern, component-based React application.
@@ -72,12 +92,20 @@ API Simulation: To operate without a true back-end, the project uses *Mock Servi
 Data Persistence: All application data (jobs, candidates, assessments) is persisted in the browser's **localStorage**. This ensures that the application state is maintained across page refreshes, providing a robust user experience.
 Component Structure: The UI is built with a clear separation of concerns, with reusable components located in the src/components directory. Shared UI primitives and utility functions are organized for maintainability.
 
+
+
+
+
 Technical Decisions
 
 Vite for Build Tooling: Vite was chosen for its fast development server and optimized build process, providing an excellent developer experience.
 Tailwind CSS for Styling: Tailwind CSS was used for its utility-first approach, enabling rapid and consistent UI development without writing custom CSS.
 MSW over other mocking libraries: MSW was selected because it operates at the network level, meaning the application code doesn't need to know it's interacting with a mock API. This makes the transition to a real API seamless.
 Local Storage for Simplicity: While IndexedDB is a more powerful solution, localStorage was used for this project to simplify state persistence while still meeting the core requirement of maintaining data across sessions.
+
+
+
+
 
 Known Issues & Trade-offs
 
