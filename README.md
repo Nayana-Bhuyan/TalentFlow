@@ -11,6 +11,9 @@ Once the application is running, navigate to the login page. You can use the fol
 Email: abc@talentflow.com
 Password: password123
 
+In order to log out, click on the profile picture on the right top corner.
+Delpoy link of the project : http://51.68.136.60:3002/
+
 
 
 
